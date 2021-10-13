@@ -67,7 +67,7 @@ Iom::Php::ShellExec::Result(
 Very cool, `clear_env : Bool` prevents the child process from reading the current process's ENV. I thought this was important to note because it wasn't in the docs.
 
 If you wanted to save the results as JSON
-```
+```crystal
 require "json"
 require "php-shell-exec"
 
